@@ -5,7 +5,6 @@
 	{?>
         function showWindow<?=$key?>(){
             var myWindow<?=$key?> = document.getElementById("mywindow<?=$key?>");
-       
             myWindow<?=$key?>.style.visibility = "visible";
         }
         function closeWin<?=$key?>(){
